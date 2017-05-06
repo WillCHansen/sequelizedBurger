@@ -1,0 +1,30 @@
+body{
+	/*background-color: red;*/
+	text-align: center;
+}
+
+table {
+	margin: 0 auto;
+}
+
+td{
+	padding-bottom: 10px;
+	padding-right: 5px;
+}
+
+#platedDiv{
+	/*background-color: blue;*/
+}
+
+#devouredDiv{
+	/*background-color: green;*/
+}
+
+#formDiv{
+	/*background-color: purple;*/
+}
+
+#burgerPic{
+	height: 20%;
+	width: 20%;
+}

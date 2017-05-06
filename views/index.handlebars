@@ -1,0 +1,31 @@
+<div class="col-xs-6" id="platedDiv">
+	<h1>Plated</h1>
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<table>
+				{{#each plated}}
+				<form action="/{{this.id}}?_method=PUT" method="POST">
+					<tr>
+						<td>{{this.burger_name}}</td>
+						<td><button type="submit">Eat it!</button></td>
+					</tr>
+				</form>
+				{{/each}}
+			</table>
+		</div>
+	</div>
+</div>
+<div class="col-xs-6" id="devouredDiv">
+	<h1>Devoured</h1>
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<table>
+				{{#each devoured}}
+				<tr>
+					<td>{{this.burger_name}}</td>
+				</tr>
+				{{/each}}
+			</table>
+		</div>
+	</div>
+</div>

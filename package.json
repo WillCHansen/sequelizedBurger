@@ -1,0 +1,27 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "A burger eating app to practice my front end and back end knowledge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillCHansen/Burger.git"
+  },
+  "author": "Will",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillCHansen/Burger/issues"
+  },
+  "homepage": "https://github.com/WillCHansen/Burger#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.8",
+    "mysql": "^2.13.0"
+  }
+}
